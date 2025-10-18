@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #025373;
+    --background-color: #F2F2F2;
+    --secondary-color: #0DA68A;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #F2F2F2;
+}
+
+.navbar {
+    display: flex;
+    background: linear-gradient(var(--primary-color), var(--secondary-color));
+    height: 10vh;
+    align-items: center;
+    padding: 20px;
+    color: var(--background-color);
+    justify-content: space-between;
+}
+
+.navbar a {
+    color: var(--background-color);
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    padding: 7px;
+    background-color: var(--primary-color);
+    border-radius: 7px;
+}
+
+.logo-container {
+    width: 300px;
+}
+
+.company-logo {
+    width: 48px;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    width: 300px;
+    justify-content: space-between;
+}
+
+#main-content {
+    width: 80vw;
+}
+
+.home-info-card {
+    width: 90%;
+    height: 25vh;
+    background-color: white;
+    margin: 30px auto;
+    border-top-left-radius: 75px;
+    border-bottom-right-radius: 75px;
+    box-shadow: 0 0 7px black;
+    padding: 10px 60px;
+}
+
+.card-header {
+    color: var(--primary-color);
+    font-family: "Oswald";
+}
+
+.card-info {
+    display: flex;
+    margin: 50px 10%;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.card-info a {
+    text-decoration: none;
+}
+
+
+
+.count {
+    color: var(--primary-color);
+    font-weight: bold;
+    font-size: 22px;
+    margin-bottom: 5px;
+    font-family: "Oswald";
+}
+
+.card-text {
+    color: black;
+}
+
+.card-text:hover{
+    color: var(--primary-color);
+}
